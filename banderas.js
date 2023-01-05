@@ -14,7 +14,7 @@ var imagenes = [
   { src: "Chile.png", title: "Chile" },
   { src: "China.png", title: "China" },
   { src: "Colombia.png", title: "Colombia" },
-  { src: "Costa-rica.png", title: "Costa-rica" },
+  { src: "Costa-Rica.png", title: "Costa-rica" },
   { src: "Ethiopia.png", title: "Etiopia" },
   { src: "France.png", title: "Francia" },
   { src: "Germany.png", title: "Alemania" },
