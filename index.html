@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=2.0" />
+    <title>Acierta Banderas</title>
+    <link rel="stylesheet" href="banderas.css" type="text/css" />
+  </head>
+
+  <body onload="inicio()">
+    <!--insertar script-->
+    <script src="Banderas.js"></script>
+
+    
+
+    <header>
+      <a href="#" class="logo">
+        <img src="logo.png" alt="" />
+        <img src="logo2.png" alt="" />
+        <h2 class="nombre">Gelai Flags          ( en construccion....   )</h2>
+      </a>
+      <nav>
+        <a href="" class="nav-link">Inicio</a>
+        <a href="" class="nav-link">Instrucciones</a>
+        <a href="" class="nav-link">Contacto</a>
+      </nav>
+    </header>
+    
+    <!--tabla banderas hecha con html-->
+    <div class="container">
+      <div class="pais" id="pais">PAIS</div>
+      <button id="btninicio" onclick="numaleat()">- Nueva Bandera -</button>
+      <div class="pais">Continente</div>
+    </div>
+    <br />
+    <div>
+      <div class="container">
+        <table class="tabla">
+          <tr id="fila1">
+            <td><img src="" id="foto1" /></td>
+            <td><img src="" id="foto2" /></td>
+            <td><img src="" id="foto3" /></td>
+            <td><img src="" id="foto4" /></td>
+            <td><img src="" id="foto21" /></td>
+            <td><img src="" id="foto22" /></td>
+          </tr>
+
+          <tr id="fila2">
+            <td><img src="" id="foto5" /></td>
+            <td><img src="" id="foto6" /></td>
+            <td><img src="" id="foto7" /></td>
+            <td><img src="" id="foto8" /></td>
+            <td><img src="" id="foto23" /></td>
+            <td><img src="" id="foto24" /></td>
+          </tr>
+
+          <tr id="fila3">
+            <td><img src="" id="foto9" /></td>
+            <td><img src="" id="foto10" /></td>
+            <td><img src="" id="foto11" /></td>
+            <td><img src="" id="foto12" /></td>
+            <td><img src="" id="foto25" /></td>
+            <td><img src="" id="foto26" /></td>
+          </tr>
+
+          <tr id="fila4">
+            <td><img src="" id="foto13" /></td>
+            <td><img src="" id="foto14" /></td>
+            <td><img src="" id="foto15" /></td>
+            <td><img src="" id="foto16" /></td>
+            <td><img src="" id="foto27" /></td>
+            <td><img src="" id="foto28" /></td>
+          </tr>
+          <tr id="fila5">
+            <td><img src="" id="foto17" /></td>
+            <td><img src="" id="foto18" /></td>
+            <td><img src="" id="foto19" /></td>
+            <td><img src="" id="foto20" /></td>
+            <td><img src="" id="foto29" /></td>
+            <td><img src="" id="foto30" /></td>
+          </tr>
+        </table>
+        <div class="pidenum" id="buscaBan">
+          
+          <p></p>
+          <img src="Japan.png" id="newflag" width="200" /> 
+          <br /><br />
+          Que Bandera es? <input type="text" id="resp" class="container" />
+          <p></p>
+          <button id="aceptar" class="pais">prueba</button>
+          <br><br>
+          <label id="correcto"> - - - - </label>
+        </div>
+        <ul class="pais2" id="listaPaises">
+          PAISES:
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <h1 class="pais" id="numBan">Numero de banderas</h1>
+
+      <h1 class="pais" id="pantAciertos">Aciertos:</h1>
+      <h1 class="pais" id="pantaFallos">Fallos:</h1>
+    </div>
+  </body>
+</html>

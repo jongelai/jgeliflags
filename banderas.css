@@ -1,0 +1,117 @@
+
+body {
+  height: 100vh;
+  text-align: center;
+  padding: 0px;
+  background: 100%;
+  background: linear-gradient(rgb(244, 185, 77), rgb(205, 233, 102));
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  background-color: orange;
+  align-items: center;
+  padding: 5px;
+}
+a {
+  text-decoration: none;
+  color: rgba(62, 6, 4, 0.893);
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 80px;
+  margin-right: 10px;
+}
+nav a {
+  font-weight: 800;
+  padding-right: 10px;
+}
+nav a:hover {
+  color: rgb(184, 214, 184);
+}
+.tabla {
+  flex-direction: row;
+  border-radius: 10px;
+  padding: 10px;
+  background: linear-gradient(rgb(200, 222, 121), rgba(37, 113, 146, 0.572));
+}
+td :hover {
+  scale: 2;
+  transition: all 300ms;
+}
+td {
+  padding: 5px;
+}
+#titulo {
+  background: linear-gradient(rgb(171, 216, 236), rgb(205, 233, 102));
+  border-radius: 10px;
+  padding: 5px;
+  color: rgb(6, 17, 166);
+  font-size: 20px;
+  width: 500px
+}
+.pais2 {
+  overflow: scroll;
+  background: linear-gradient(rgb(171, 216, 236), rgb(205, 233, 102));
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 0px;
+  color: rgb(8, 42, 178);
+  font-size: 20px;
+  width: 200px;
+  height: 350px;
+}
+.pidenum {
+  background: linear-gradient(rgb(171, 216, 236), rgb(205, 233, 102));
+  border-radius: 10px;
+  margin-left: 20px;
+  font-size: 25px;
+  color: blue;
+  width: 270px;
+}
+.pais {
+  background: linear-gradient(rgb(171, 216, 236), rgb(205, 233, 102));
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 10px;
+  color: rgb(6, 17, 166);
+  font-size: 20px;
+  font-weight: 600;
+  width: 200px;
+}
+.continente {
+  background: linear-gradient(rgb(205, 233, 102), rgb(171, 216, 236));
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 10px;
+  color: rgb(6, 17, 166);
+  font-size: 20px;
+  width: 200px;
+}
+.container {
+  display: inline-flex;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+#btninicio {
+  background: linear-gradient(rgb(205, 233, 102), rgb(171, 216, 236));
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px;
+  color: rgb(6, 17, 166);
+  margin-left: 20px;
+  margin-right: 20px;
+}

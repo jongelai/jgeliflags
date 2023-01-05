@@ -1,0 +1,91 @@
+body{
+    padding: 20px;
+    background: linear-gradient(rgb(37, 113, 146),rgb(205, 233, 102));
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#divjefe{
+    text-align:center;
+}
+#pais{
+    width: 300px;
+    text-align: center;
+    background: linear-gradient(rgb(171, 216, 236),rgb(205, 233, 102));
+    border-radius: 10px;
+    padding: 10px;
+    color:rgb(249, 0, 0);
+    font-size:30px;
+}
+#salida{
+    
+    scroll-margin: 20px;
+    width: 200px;height: 200px;
+    background-color: aquamarine;
+    
+}
+/*#c10{
+    width: 50px;height: 50px;
+    position: relative;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 50px;}
+    #c20{
+        width: 50px;height: 50px;
+        position: relative;
+        background-color: red;
+        padding: 10px;
+        border-radius: 50px;}
+        #c30{
+            width: 50px;height: 50px;
+            position: relative;
+            background-color: green;
+            padding: 10px;
+            border-radius: 50px;}
+            #c40{
+                width: 50px;height: 50px;
+                position: relative;
+                background-color: yellow;
+                padding: 10px;
+                border-radius: 50px;}
+                */
+
+.tabla{
+    
+    
+    border-radius: 10px;
+    padding: 5px;
+    background: linear-gradient(rgb(205, 233, 102),rgba(37, 113, 146, 0.572));
+}
+
+#btn1{
+    width: 400px;
+    background: linear-gradient(rgb(171, 216, 236),rgb(205, 233, 102));
+    
+    border-radius: 10px;
+    padding: 5px;
+    color:rgb(163, 46, 46);
+    font-size:30px;
+    
+    }
+td :hover {
+    scale: 1.5;
+    transition: all 400ms;
+}
+
+th,td{
+    padding: 10px;
+    border-radius: 10px;
+}
+#recuadro{
+    
+    background-color: rgb(145, 231, 117);
+    
+    border-radius: 20px;
+    font-size: large;
+    padding: 0px;
+}
+.entrada1{
+    font-size: large;
+    border-radius: 10px;
+    padding: 0px;
+}
