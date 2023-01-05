@@ -9,7 +9,7 @@ var imagenes = [
   { src: "Bulgaria.png", title: "Bulgaria" },
   { src: "Canada.png", title: "Canada" },
   { src: "Senegal.png", title: "Senegal" },
-  { src: "Bulgaria.png", title: "Bulgaria" },
+  { src: "Finland.png", title: "Finlandia" },
   { src: "Ecuador.png", title: "Ecuador" },
   { src: "Chile.png", title: "Chile" },
   { src: "China.png", title: "China" },
